@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'idea'
+}
+
+
+group 'io.github.lsikora'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_12
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

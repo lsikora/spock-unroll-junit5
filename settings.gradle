@@ -1,0 +1,2 @@
+rootProject.name = 'spock-unroll-junit5'
+include 'spock-junit4', 'spock-junit5'
